@@ -1,0 +1,40 @@
+import java.awt.Color;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/* Layout Manager = Defines the natural layout for components within a container
+		 * 
+		 *  3 Common managers
+		 *  
+		 *  BorderLayout = A BorderLayout places components in five areas: North, South, West,
+		 *  East and Center. All extra space is placed in the center area.
+		 *  
+		 */
+		
+		 /* Frame object */
+		
+		JFrame frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(500, 500);
+		frame.setVisible(true);
+		
+		/* Panel Objects */
+		
+		JPanel centerPanel = new JPanel();
+		JPanel topPanel = new JPanel();
+		JPanel bottomPanel = new JPanel();
+		JPanel leftPanel = new JPanel();
+		JPanel rightPanel = new JPanel();
+		
+		/* Center panel */
+		centerPanel.setBackground(Color.red);
+		
+
+	}
+
+}

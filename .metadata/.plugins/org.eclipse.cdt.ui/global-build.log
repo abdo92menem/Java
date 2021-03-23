@@ -1,0 +1,12 @@
+
+Invoking autoreconf in build directory: C:/Users/mmmm/eclipse-workspace/test/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Users/mmmm/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Users/mmmm/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\mmmm\eclipse\cpp-2020-09\eclipse]
+)Build stopped
+()

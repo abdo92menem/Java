@@ -1,0 +1,18 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame{
+	
+	/* Constructor */
+	public MyFrame() {
+
+		/* Frame attributes */
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setSize(350, 200);
+		this.setTitle("My Clock Program");
+		this.setLayout(new FlowLayout());
+		this.setResizable(false);
+		this.setVisible(true);
+	}
+}

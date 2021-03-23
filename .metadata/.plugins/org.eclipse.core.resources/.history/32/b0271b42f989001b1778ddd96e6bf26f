@@ -1,0 +1,60 @@
+import java.awt.FlowLayout;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class MyFrame extends JFrame{
+
+	/* Variables */
+	SimpleDateFormat timeFormat;
+	SimpleDateFormat dayFormat;
+	SimpleDateFormat dateFormat;
+	JLabel timeLabel;
+	JLabel dayLabel;
+	JLabel dateLabel;
+	String time;
+	String day;
+	String date;
+
+	/* Constructor */
+	public MyFrame() {
+
+		/* Frame attributes */
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setSize(350, 200);
+		this.setTitle("My Clock Program");
+		this.setLayout(new FlowLayout());
+		this.setResizable(false);
+
+		timeFormat = new SimpleDateFormat("hh:mm:ss a");
+		dayFormat = new SimpleDateFormat("EEEE");
+		dateFormat = new SimpleDateFormat("MMMM dd yyyy");
+
+
+		timeLabel  = new JLabel();
+		dayLabel  = new JLabel();
+		dateLabel  = new JLabel();
+
+
+		this.add(timeLabel);		
+		this.setVisible(true);
+
+		setTime();
+	}
+
+	public void setTime() {
+		while(true) {
+			time = timeFormat.format(Calendar.getInstance().getTime());
+			timeLabel.setText(time);
+
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+}

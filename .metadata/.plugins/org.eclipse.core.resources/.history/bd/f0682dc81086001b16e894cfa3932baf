@@ -1,0 +1,87 @@
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.border.Border;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		/* JFrame = a GUI window to add components to */
+		/* JLabel = a GUI display area for a string of text, an image, or both */
+		
+//		BORDER BORDER = BORDERFACTORY.CREATELINEBORDER(COLOR.GREEN, 3); // CREATE BORDER 
+//		MYFRAME FRAME = NEW MYFRAME("GOOD DAY");	 // CREATE FRAME INSTANCE
+//		IMAGEICON IMAGE = NEW IMAGEICON("LOGO1.PNG"); // CREATE IMAGEICON FOR LABEL
+//		JLABEL LABEL = NEW JLABEL();				 // CREATE LABEL INSTANCE
+//		LABEL.SETTEXT("YOU ARE CODING"); 			 // SET TEXT TO LABEL
+//		FRAME.SETVISIBLE(TRUE); 					 // SET FRAME TO VISIBLE
+//		//FRAME.SETLAYOUT(NULL);
+//		FRAME.ADD(LABEL); 							 // ADD LABEL TO FRAME
+//		LABEL.SETICON(IMAGE); 						 // SET ICON TO LABEL
+//		LABEL.SETHORIZONTALTEXTPOSITION(JLABEL.CENTER); // SET TEXT RIGHT, CENTER, LEFT OF IMAGE 
+//		LABEL.SETVERTICALTEXTPOSITION(JLABEL.TOP);   // SET TEXT TOP, CENTER, BOTTOM OF THE IMAGE
+//		LABEL.SETFOREGROUND(NEW COLOR(0X03FFA2));  	 // SET LABEL FOREGROUND COLOR
+//		LABEL.SETFONT(NEW FONT("MV BOLI", FONT.PLAIN, 50)); // SET FONT STYLE AND SIZE
+//		LABEL.SETICONTEXTGAP(10); // MAKE GAP BETWEEN IMAGE AND LABEL
+//		LABEL.SETBACKGROUND(COLOR.BLACK);    // SET BACKGROUND
+//		LABEL.SETOPAQUE(TRUE);               // DISPLAY BACKGROUND COLOR
+//		LABEL.SETBORDER(BORDER);             // SET BORDER
+//		LABEL.SETHORIZONTALALIGNMENT(JLABEL.CENTER);  // SET HORIZONTAL POSITION OF TEXT & ICON
+//		LABEL.SETVERTICALALIGNMENT(JLABEL.CENTER);	  // SET VERTICAL POSITION OF TEXT & ICON
+//		//LABEL.SETBOUNDS(75, 60, 250, 250);			 // SET BOUNDARIES OF LABEL 
+//		FRAME.PACK();                               // RESIZE FRAME TO CONTENTS OF THE FRAME
+		
+		
+		/* JPanel = a GUI component that functions as a container to hold other components */
+		
+		
+		/* ImageIcon */
+		ImageIcon icon = new ImageIcon("hi.jpg");
+		
+		/* Label */
+		JLabel label = new JLabel();            // create label object
+		label.setText("Hello"); 				// set text to label
+		label.setIcon(icon);					//set icon to label
+		label.setHorizontalAlignment(JLabel.BOTTOM);
+		label.setVerticalAlignment(JLabel.RIGHT);
+		label.setBounds(100, 100, 75, 75);
+		
+		/* Red panel */
+		JPanel redPanel = new JPanel();         // create panel object
+		redPanel.setBackground(Color.red);      // set panel background to red
+		redPanel.setBounds(0, 0, 250, 250);   // set boundaries of panel
+		redPanel.setLayout(null);
+		
+		/* Blue panel */
+		JPanel bluePanel = new JPanel();         // create panel object
+		bluePanel.setBackground(Color.blue);      // set panel background to red
+		bluePanel.setBounds(250, 0, 250, 250);   // set boundaries of panel
+		bluePanel.setLayout(null);
+		
+		/* Green panel */
+		JPanel greenPanel = new JPanel();         // create panel object
+		greenPanel.setBackground(Color.green);      // set panel background to red
+		greenPanel.setBounds(0, 250, 500, 250);   // set boundaries of panel
+		greenPanel.setLayout(null);
+		
+		JFrame frame = new JFrame();     // create frame object
+		frame.setSize(750, 750);         // size of frame
+		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE); // exit on close button
+		frame.setLayout(null);            // layout of frame
+		frame.setVisible(true); 		  // frame is visible
+		greenPanel.add(label);			   // add label to red panel
+		frame.add(redPanel);               // add panel to frame
+		frame.add(bluePanel);               // add panel to frame
+		frame.add(greenPanel);				// add panel to frame
+		
+
+	
+	}
+
+}

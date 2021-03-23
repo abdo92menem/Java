@@ -1,0 +1,35 @@
+import java.awt.FlowLayout;
+import java.awt.MenuBar;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class MyFrame extends JFrame implements ActionListener{
+
+	
+	/* Constructor */
+	public MyFrame() {
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLayout(new FlowLayout());
+		this.setSize(420, 420);
+		
+		
+		/* MenuBar */
+		JMenuBar menuBar = new JMenuBar();
+		JMenu fileMenu = new JMenu("File");
+		JMenu editMenu = new JMneu("Edit");
+		JMenu helpMenu = new JMenu("Help");
+		
+		this.setJMenuBar(menuBar);
+		this.setVisible(true);
+	}
+	
+	
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

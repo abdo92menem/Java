@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
+
+public class EncryptionProgram {
+
+	/* Variable declaration */
+	private Scanner scanner;        	 // take input from user
+	private Random random;		         // generate random output
+	private ArrayList<Character> list;  	   // array of characters to hold ascii values started at 32 to 126
+	private ArrayList<Character> shuffledList; 		 // array to hold shuffled ascii values
+	private char character;              // 
+	private String line;
+	private char[] letters;				// to hold user input message
+	private char[] secretLetters;	    // to hold encrypted message
+	
+	/* Constructor */
+	EncryptionProgram(){
+		
+		/* Variable Initialization */
+		scanner = new Scanner(System.in);
+		random = new Random();
+		list = new ArrayList<>();
+		shuffledList = new ArrayList<>();
+		character = ' ';
+	}
+	
+	/* AskQuestion method 
+	 *      has no parameters, no return values
+	 * 		Prompt the user to enter a choice such as: 
+	 * 			1. set new key
+	 * 			2. get key
+	 * 			3. encrypt message
+	 * 			4. decrypt message
+	 * 			5. quit
+	 */
+	private void askQuestion() {
+		
+		
+	}
+}

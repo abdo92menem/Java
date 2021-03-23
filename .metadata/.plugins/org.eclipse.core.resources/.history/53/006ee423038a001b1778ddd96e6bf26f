@@ -1,0 +1,55 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class Stopwatch implements ActionListener{
+	
+	/* Variables */
+	int elapsedTime = 0;
+	int seconds = 0;
+	int minutes = 0;
+	int hours = 0;
+	boolean started = false;
+	String seconds_string = String.format("%02d", seconds);
+	String minutes_string = String.format("%02d", minutes);
+	String hours_string = String.format("%02d", hours);
+	
+	/* Frame */
+	JFrame frame = new JFrame();
+	
+	/* Buttons */
+	JButton startButton = new JButton("Start");
+	JButton resetButton = new JButton("reset");
+	
+	/* Label */
+	JLabel timeLabel = new JLabel();
+	
+	/* Constructor */
+	public Stopwatch() {
+		
+		/* Label */
+		/* Frame */
+		/* Buttons */
+		
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		
+		
+	}
+	
+	public void start() {
+		
+	}
+	
+	public void stop() {
+		
+	}
+	
+	public void reset() {
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.border.Border;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		/* JFrame = a GUI window to add components to */
+		/* JLabel = a GUI display area for a string of text, an image, or both */
+		
+		/* Border object*/
+		Border border = BorderFactory.createLineBorder(Color.green, 3); // CREATE BORDER
+		
+		/* Icon object */
+		ImageIcon image = new ImageIcon("logo1.png"); // CREATE IMAGEICON FOR LABEL
+		
+		/* Label object */
+		JLabel label = new JLabel();				 // CREATE LABEL INSTANCE
+		label.setText("YOU ARE CODING"); 			 // SET TEXT TO LABEL
+		
+		/* Frame Object */
+		JFrame frame = new JFrame();				 // CREATE FRAME INSTANCE
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(420, 420); 					 // Frame size
+		frame.setVisible(true); 					 // SET FRAME TO VISIBLE
+		frame.setLayout(null);
+		frame.add(label); 							 // ADD LABEL TO FRAME
+		frame.pack();                               // RESIZE FRAME TO CONTENTS OF THE FRAME
+		
+		
+
+		
+	}
+
+}

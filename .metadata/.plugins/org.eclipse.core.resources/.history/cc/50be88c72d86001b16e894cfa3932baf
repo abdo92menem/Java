@@ -1,0 +1,36 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame implements ActionListener{
+	
+	// make button global variable
+	JButton button;
+	
+	public MyFrame() {
+		
+		button = new JButton();       // create button instance inside frame class
+		button.setBounds(120, 100, 250, 100);  // set bounds of button
+		button.addActionListener(this);       // button make action
+		button.setText("Submit");             // text to button
+		button.setFocusable(false);			  // remove inner border
+		 
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLayout(null);
+		this.setSize(500, 500);
+		this.setVisible(true);
+		this.add(button);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource() == button) {
+			System.out.println("Poooo");
+		}
+		
+	}
+
+}

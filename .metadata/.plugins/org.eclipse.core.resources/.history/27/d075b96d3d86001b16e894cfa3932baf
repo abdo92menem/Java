@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/*
+		 *	JLayeredPane = Swing container that provides a third dimension for 
+		 *				   positioning components
+		 *				   ex. depth, z-index 
+		 */
+
+	}
+
+}

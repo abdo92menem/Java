@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/* JOptionPane = pop up a standard dialog box that prompts user for value
+		 *				 or inform them of something 
+		 *
+		 */
+		
+		JOptionPane.showMessageDialog(null, "this is me", "ME", JOptionPane.PLAIN_MESSAGE);
+//		JOptionPane.showMessageDialog(null, "this is me", "ME", JOptionPane.INFORMATION_MESSAGE);
+//		JOptionPane.showMessageDialog(null, "this is me", "ME", JOptionPane.QUESTION_MESSAGE);
+//		JOptionPane.showMessageDialog(null, "this is me", "ME", JOptionPane.WARNING_MESSAGE);
+//		JOptionPane.showMessageDialog(null, "this is me", "ME", JOptionPane.ERROR_MESSAGE);
+
+	}
+
+}

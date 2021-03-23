@@ -1,0 +1,14 @@
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+
+public class DragPanel extends JPanel{
+
+	ImageIcon image = new ImageIcon();
+	
+	
+	
+	/* Constructor */
+	public DragPanel() {
+		// TODO Auto-generated constructor stub
+	}
+}

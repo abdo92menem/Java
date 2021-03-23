@@ -1,0 +1,25 @@
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+
+public class Myframe extends JFrame implements ActionListener{
+	
+	Myframe(){
+		
+		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+		this.setLayout(new FlowLayout());
+		this.pack();
+		this.setVisible(true);
+		
+	}
+	
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

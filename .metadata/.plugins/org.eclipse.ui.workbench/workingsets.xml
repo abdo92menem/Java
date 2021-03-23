@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1614008954556_1" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1614008954582_2" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1616233245073_4" label="GUI" name="GUI">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Flow" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Panel" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_MenuBar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_JOptionPane" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Slider" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Grid" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Button" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Radio" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_ColorChooser" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_FileChooser" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Border" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_LayeredPane" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Label" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_TextFiled" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_CheckBox" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_Frame" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_KeyInterface" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_MouseInterface" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_ComboBox" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GUI_ProgressBar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Selenium" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1616260599245_5" label="Selenium" name="Selenium">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Selenium" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1616260695260_6" label="JavaBasicsExamples" name="JavaBasicsExamples">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AudioPlayer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OOP" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Help" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OnlineShop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Enumeration" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DynamicPoly" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HashMap" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Exceptions" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Serialization" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Drag&amp;Drop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Encapsulation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Interface" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Recursion" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Deserialization" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AnonymousObjects" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OOP2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LambdaExpression" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AnonymousInnerClass" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/InnerClasses" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Plymorphism" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CustomException" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/2DArrayList" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/KeyBindings Demo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Timer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Simple2DGraphic" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HowToOpenANewWindow" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Threads" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Generics" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Files" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1616260749225_7" label="JavaProjects" name="JavaProjects">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EncryptionOTP_Program" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ClockApp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Stopwatch" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Calculator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Login System" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/QuizGame" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TicTacToe" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PongGame" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SnakeGame" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1602310830920_0" label="Window Working Set" name="Aggregate for window 1602310830918"/>
+</workingSetManager>

@@ -1,0 +1,71 @@
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Locale;
+
+import javax.swing.*;
+
+public class Stopwatch implements ActionListener{
+	
+	/* Variables */
+	int elapsedTime = 0;
+	int seconds = 0;
+	int minutes = 0;
+	int hours = 0;
+	boolean started = false;
+	String seconds_string = String.format("%02d", seconds, new Locale("en"));
+	String minutes_string = String.format("%02d", minutes, new Locale("en"));
+	String hours_string = String.format("%02d", hours, new Locale("en"));
+	
+	/* Frame */
+	JFrame frame = new JFrame();
+	
+	/* Buttons */
+	JButton startButton = new JButton("Start");
+	JButton resetButton = new JButton("reset");
+	
+	/* Label */
+	JLabel timeLabel = new JLabel();
+	
+	/* Constructor */
+	public Stopwatch() {
+		
+		/* Label */
+		timeLabel.setText(hours_string + ":" + minutes_string + ":" + seconds_string);
+		timeLabel.setBounds(100, 100, 200, 100);
+		timeLabel.setFont(new Font("Ink Free", Font.PLAIN, 35));
+		timeLabel.setBorder(BorderFactory.createBevelBorder(1));
+		timeLabel.setOpaque(true);
+		timeLabel.setHorizontalAlignment(JTextField.CENTER);
+		
+		/* Buttons */
+		
+		/* Frame */
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(420,  420);
+		frame.setLayout(null);
+		
+		frame.add(timeLabel);
+		frame.setVisible(true);
+		
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		
+		
+	}
+	
+	public void start() {
+		
+	}
+	
+	public void stop() {
+		
+	}
+	
+	public void reset() {
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class LaunchPage {
+	
+	JFrame frame = new JFrame();
+	JButton button = new JButton();
+	
+	public LaunchPage() {
+		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(500, 500);
+		frame.setVisible(true);
+	}
+}

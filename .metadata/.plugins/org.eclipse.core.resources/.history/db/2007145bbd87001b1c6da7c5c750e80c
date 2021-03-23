@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		/* Deserialization = The reverse process of converting byte stream into an object
+								
+		 *  			   Steps to Deserialize
+		 *  			   -------------------------------------------------------------	
+		 *  			   1. Declare your object without instantiate
+		 *  			   2. Your object class should implement Serializable interface
+		 *  			   3. add import java.io.Serializable;
+		 *  			   4. FileInputStream fileIn = new FileInputStream(file path)
+		 *  			   5. ObjectInputStream in = new ObjectInputStream(fileIn)
+		 *  			   6. objectName = (Class) in.readObject();
+		 *  			   7. in.close(); fileIn.close;							
+					
+		*/
+		
+		
+		
+	}
+
+}

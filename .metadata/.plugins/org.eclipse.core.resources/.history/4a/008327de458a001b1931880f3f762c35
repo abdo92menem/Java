@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+public class WelcomePage extends JFrame{
+	
+	public WelcomePage() {
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(420, 420);
+		this.setLayout(null);
+		this.setVisible(true);
+	}
+	
+}

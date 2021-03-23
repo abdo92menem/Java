@@ -1,0 +1,87 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import javax.swing.*;
+
+public class Game {
+	
+	/* Frame */
+	JFrame frame;
+	
+	/* Label */
+	JLabel label;
+	
+	/* Action */
+	Action upAction;
+	Action downAction;
+	Action leftAction;
+	Action rightAction;
+	
+	public Game() {
+		
+		/* Frame */
+		frame = new JFrame("KeyBinding");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(420, 420);
+		frame.setLayout(null);
+
+		
+		/* Label */
+		label = new JLabel();
+		label.setBounds(100, 100, 100, 100);
+		label.setBackground(Color.red);
+		label.setOpaque(true);
+		
+		/* Action */
+		upAction = new UpAction();
+		downAction = new DownAction();
+		leftAction = new LeftAction();
+		rightAction = new RightAction();
+		
+		frame.add(label);
+		frame.setVisible(true);
+		
+	}
+	
+	public class UpAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class DownAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class LeftAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class RightAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	
+	
+}

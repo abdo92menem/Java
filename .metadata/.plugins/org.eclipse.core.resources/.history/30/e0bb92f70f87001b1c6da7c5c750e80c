@@ -1,0 +1,65 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class Game {
+	
+	/* Frame */
+	JFrame frame = new JFrame();
+	
+	/* Label */
+	JLabel label = new JLabel();
+	
+	/* Action */
+	Action upAction;
+	Action downAction;
+	Action leftAction;
+	Action rightAction;
+	
+	public Game() {
+		
+		
+	}
+	
+	public class UpAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class DownAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class LeftAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class RightAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	
+	
+}

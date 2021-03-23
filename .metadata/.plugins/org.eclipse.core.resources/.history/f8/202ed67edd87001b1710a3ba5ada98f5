@@ -1,0 +1,9 @@
+package Pack1;
+
+public class FirstSeleniumScript {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

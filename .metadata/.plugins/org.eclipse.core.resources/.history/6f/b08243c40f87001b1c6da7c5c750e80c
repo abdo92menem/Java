@@ -1,0 +1,54 @@
+import java.awt.event.ActionEvent;
+
+import javax.swing.AbstractAction;
+
+public class Game {
+	
+	public Game() {
+		
+		
+	}
+	
+	public class UpAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class DownAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class LeftAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	public class RightAction extends AbstractAction{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	
+	
+}

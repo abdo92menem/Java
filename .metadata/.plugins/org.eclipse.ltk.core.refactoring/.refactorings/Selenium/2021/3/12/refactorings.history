@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Pack1.FirstScript&apos; to &apos;FirstSeleniumScript&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;Pack1.FirstScript&apos;&#x0D;&#x0A;- Renamed element: &apos;Pack1.FirstSeleniumScript&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FirstScript&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Pack1{FirstScript.java[FirstScript" matchStrategy="1" name="FirstSeleniumScript" qualified="false" references="true" similarDeclarations="false" stamp="1616066960428" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,40 @@
+import java.awt.Graphics;
+import java.awt.Point;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseMotionAdapter;
+
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+
+public class DragPanel extends JPanel{
+
+	ImageIcon image = new ImageIcon("smile.jpg");
+	final int WiDTH = image.getIconWidth();
+	final int HEIGHT = image.getIconHeight();
+	Point imageCorner;
+	Point prevPt;
+	
+	
+	/* Constructor */
+	public DragPanel() {
+		
+		
+	}
+	
+	public void paintComponent(Graphics g) {
+		
+	}
+	
+	private class ClickListener extends MouseAdapter{
+		
+	}
+	
+	private class DragListener extends MouseMotionAdapter{
+		
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,29 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/*
+		 *  FlowLayout = places components in a row, sized at their preferred size.
+		 * 				if the horizontal space in container is too small, the flowLayout
+		 * 				class uses the next available row
+		 * 
+		 */
+		
+		/* Frame instance */
+		JFrame frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(500, 500);
+		frame.setLayout(new FlowLayout());    // default = BorderLayout
+		frame.setVisible(true);
+		
+		/* Button objects */
+		frame.add(new JButton("1"));   // fast way to create button object
+
+	}
+
+}

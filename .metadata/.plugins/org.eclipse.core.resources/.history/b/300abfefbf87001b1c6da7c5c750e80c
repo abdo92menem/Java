@@ -1,0 +1,32 @@
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/* Timer = a facility for threads to schedule tasks
+		 *		   for future execution in background thread	 
+		 *  
+		 * TimerTask = a task that can be scheduled for one-time 
+		 *  		   or repeated execution by Timer
+		 */
+		
+		
+		Timer timer = new Timer();
+		
+		TimerTask task = new TimerTask() {
+
+			@Override
+			public void run() {
+				
+				System.out.println("Task is complete 1");
+				
+			}
+			
+			Timer.schedule(task, 1000);
+		};
+
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/* Serialization = The process of converting an object into a byte stream.
+		 *				   Persists (saves the state) the object after program exits.
+		 *				   this byte stream can be saved as a file or sent over network  
+		 *				   can be sent to different networks  	
+		 *				   Byte stream can be saved as a file (.ser) which is platform 
+		 *		 		   independent. (think of this as if you're saving a file with the object info)  
+		 *  
+		 *  
+		 * Deserialization = The reverse process of converting byte stream into an object
+		 *  
+		 */
+		
+		
+
+	}
+
+}

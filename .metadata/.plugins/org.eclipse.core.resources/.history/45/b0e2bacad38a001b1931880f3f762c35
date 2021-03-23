@@ -1,0 +1,39 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.util.*;
+
+
+public class TicTacToe implements ActionListener{
+
+	
+	public TicTacToe() {
+		
+		
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void firstTurn() {
+		
+	}
+	
+	public void check() {
+		
+	}
+	
+	public void xWin(int a, int b, int c) {
+		
+	}
+	
+public void oWin(int a, int b, int c) {
+		
+	}
+
+	
+	
+}

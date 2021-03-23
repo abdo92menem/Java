@@ -1,0 +1,12 @@
+import javax.swing.JPanel;
+
+public class DragPanel extends JPanel{
+
+	
+	
+	
+	/* Constructor */
+	public DragPanel() {
+		// TODO Auto-generated constructor stub
+	}
+}

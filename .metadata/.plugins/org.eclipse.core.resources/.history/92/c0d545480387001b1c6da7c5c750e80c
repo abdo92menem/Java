@@ -1,0 +1,52 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class MyFrame extends JFrame implements MouseListener{
+	
+	
+	DragPanel dragPanel = new DragPanel();
+//	JLabel label;
+	
+//	ImageIcon smile;
+//	ImageIcon nervous;
+//	ImageIcon dizzy;
+//	ImageIcon pain;
+	
+	/* Constructor */
+	public MyFrame() {
+
+		/* Frame */
+		this.add(dragPanel);
+		this.setTitle("Drag & Drop demo");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(600, 600);
+		//this.addMouseListener(this);
+		this.setLayout(new FlowLayout());
+		//this.getContentPane().setBackground(Color.black);
+		
+		
+//		/* Icon */
+//		smile = new ImageIcon("smile.jpg");
+//		nervous = new ImageIcon("nervous.jpg");
+//		dizzy = new ImageIcon("dizzy.jpg");
+//		pain = new ImageIcon("pain.png");
+//		
+//		
+//		/* Label */
+//		label = new JLabel();
+//		//label.setBounds(0, 0, 200, 200);
+//		label.addMouseListener(this);
+//		label.setBackground(Color.red);
+//		label.setOpaque(true);
+//		
+//		label.setIcon(smile);
+//		
+//		this.add(label);
+		
+		//this.pack();
+		// this.setLocationRelativeTo(null);
+		this.setVisible(true);
+	}
+}
+

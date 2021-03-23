@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		/* Deserialization = The reverse process of converting byte stream into an object
+								
+							
+					
+		*/
+	}
+
+}

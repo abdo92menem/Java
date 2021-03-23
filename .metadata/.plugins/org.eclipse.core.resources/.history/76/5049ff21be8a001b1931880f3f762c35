@@ -1,0 +1,101 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+
+public class Quiz implements ActionListener{
+	
+	String[] questions = {
+							"Which company created java?",
+							"in Which year was java created?",
+							"Who created java",
+							"what was java originally called?"
+						 };
+	
+	String[][] options = {
+							{"Sun Microsystems", "StarBuks", "Microsoft", "Alphabet"},
+							{"1989", "1996", "1972", "1960"},
+							{"Apple", "Latte", "Oak", "Koffing"},
+							{"Steve Jobs", "Bill Gates", "James Goslling", "Mark Zukerberg"}
+						 };
+	
+	char[] answers = 	{
+							'A',
+							'B',
+							'C',
+							'C'
+						};
+	
+	char guess;
+	char answer;
+	int index;
+	int correct_guesses = 0;
+	int total_questions = questions.length;
+	int result;
+	int seconds = 10;
+	
+	JFrame frame = new JFrame();
+	JTextField textfield = new JTextField();
+	JTextArea textarea = new JTextArea();
+	JButton buttonA = new JButton();
+	JButton buttonB = new JButton();
+	JButton buttonC = new JButton();
+	JButton buttonD = new JButton();
+	JLabel answerA_label = new JLabel();
+	JLabel answerB_label = new JLabel();
+	JLabel answerC_label = new JLabel();
+	JLabel answerD_label = new JLabel();
+	JLabel time_label = new JLabel();
+	JLabel second_label = new JLabel();
+	JTextField number_right = new JTextField();
+	JTextField percentage = new JTextField();
+	
+	public Quiz() {
+		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(650, 650);
+		frame.setLayout(null);
+		frame.getContentPane().setBackground(new Color(50, 50 , 50));
+		
+		textfield.setBounds(0, 0, 650, 50);
+		textfield.setFont(new Font("MV Boli", Font.BOLD, 30));
+		textfield.setBackground(new Color(25, 25, 25));
+		textfield.setForeground(new Color(25, 255, 0));
+		textfield.setBorder(BorderFactory.createBevelBorder(1));
+		textfield.setHorizontalAlignment(JTextField.CENTER);
+		textfield.setEditable(false);
+		
+		textarea.setBounds(0, 50, 650, 50);
+		textarea.setLineWrap(true);
+		textarea.setWrapStyleWord(true);
+		textarea.setFont(new Font("Ink Free", Font.BOLD, 25));
+		textarea.setBackground(new Color(25, 25, 25));
+		textarea.setForeground(new Color(25, 255, 0));
+		textarea.setBorder(BorderFactory.createBevelBorder(1));
+		textarea.setEditable(false);
+		
+		
+		frame.add(textfield);
+		frame.add(textarea);
+		frame.setVisible(true);
+	}
+	
+	public void nextQuestion() {
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void displayAnswer() {
+		
+	}
+	
+	public void results() {
+		
+	}
+
+}

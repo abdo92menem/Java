@@ -1,0 +1,24 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/*
+		 *	GridLayout = places components in a grid of cells.
+		 *				 each component takes all the available space within its cells,
+		 *				 and each cell is the same size  
+		 */
+		
+		/* Frame instance */
+		JFrame frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(500, 500);
+		// 0, 0 are the space between components
+		frame.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0)); 
+
+	}
+
+}
